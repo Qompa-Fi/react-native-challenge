@@ -54,7 +54,7 @@ title should be copied to the clipboard.
 - The creativity of the solution.
 - Use of the best practices.
 - The commit messages with their format are considered. We're following the [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) specification.
-- The project can be launched on local.
+- The project can be launched on local in iOS, Android and Web.
 
 ## Bonus points
 
