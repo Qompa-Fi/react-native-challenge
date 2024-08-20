@@ -1,4 +1,4 @@
-# Welcome to your Expo app 👋
+# React Native Challenge 📐
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
@@ -25,26 +25,37 @@ In the output, you'll find options to open the app in a
 
 You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Get a fresh project
+> [!NOTE]
+> If you have problems running the app, take into account that it was created with node **v20.x.x** + npm/npx **v10.7.0**.
 
-When you're ready, run:
+## About our current mobile stack
 
-```bash
-npm run reset-project
-```
+We're using Expo, React Native, TypeScript, [Zustand](https://zustand-demo.pmnd.rs/), [TanStack Query](https://tanstack.com/query/latest), [Tailwind CSS](https://tailwindcss.com/), [NativeWind V4](https://www.nativewind.dev/v4/overview) and [React Native Reusables](https://github.com/mrzachnugent/react-native-reusables).
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## The Challenge
 
-## Learn more
+On the first page of the application, you should **list the posts** retrieved from <https://jsonplaceholder.typicode.com/posts>. Each card should display the
+provided **title** and **body**, and include a button to view the post comments on a separate page.
 
-To learn more about developing your project with Expo, look at the following resources:
+Additionally, there should be a page to view the **details of any post**. This page should display the title and body of the selected post, along with a list
+of comments from <https://jsonplaceholder.typicode.com/posts/:post_id/comments>.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+The user should be able to:
 
-## Join the community
+- Navigate to the next or previous page to keep viewing the list of posts.
+- View the post comments.
+- Navigate to the list of posts from the post details page.
+- In the post details page, every text chunk can be copied to the clipboard by only typing on it. By example, if the post title is tapped twice on the screen, the
+title should be copied to the clipboard.
 
-Join our community of developers creating universal apps.
+## Evaluation Criteria
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- Libraries that you're using and why.
+- The creativity of the solution.
+- Use of the best practices.
+- The commit messages with their format are considered. We're following the [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) specification.
+- The project can be launched on local.
+
+## Bonus points
+
+- When a text chunk is copied to the clipboard, a simple toast message should be displayed.
