@@ -28,7 +28,7 @@ You can start developing by editing the files inside the **app** directory. This
 > [!NOTE]
 > If you have problems running the app, take into account that it was created with node **v20.x.x** + npm/npx **v10.7.0**.
 
-## About our current mobile stack
+## About our current mobile stack (not required/optional)
 
 We're using Expo, React Native, TypeScript, [Zustand](https://zustand-demo.pmnd.rs/), [TanStack Query](https://tanstack.com/query/latest), [Tailwind CSS](https://tailwindcss.com/), [NativeWind V4](https://www.nativewind.dev/v4/overview) and [React Native Reusables](https://github.com/mrzachnugent/react-native-reusables).
 
@@ -45,8 +45,16 @@ The user should be able to:
 - Navigate to the next or previous page to keep viewing the list of posts.
 - View the post comments.
 - Navigate to the list of posts from the post details page.
-- In the post details page, every text chunk can be copied to the clipboard by only typing on it. By example, if the post title is tapped twice on the screen, the
+- In the post details page, every text chunk can be copied to the clipboard by only typing twice on it. By example, if the post title is tapped twice on the screen, the
 title should be copied to the clipboard.
+
+## How to start
+
+- Make a fork of the project
+
+## Delivery
+
+When you are done, submit a Pull Request
 
 ## Evaluation Criteria
 
@@ -58,4 +66,4 @@ title should be copied to the clipboard.
 
 ## Bonus points
 
-- When a text chunk is copied to the clipboard, a simple toast message should be displayed.
+- When a text chunk is copied to the clipboard, a simple toast message should be displayed notifying to the user.
