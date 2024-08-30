@@ -50,11 +50,14 @@ title should be copied to the clipboard.
 
 ## How to start
 
+- Decide when you can allocate 2 hours to make the challenge
 - Make a fork of the project
+- The 2 hoours deadline start in te moment you forked the project
+- Make sure you have Node installed (preferred v20.x.x)
 
 ## Delivery
 
-When you are done, submit a Pull Request
+When you are done, submit a Pull Request and leaving your full name in the comment/description section
 
 ## Evaluation Criteria
 
