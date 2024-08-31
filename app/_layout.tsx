@@ -34,6 +34,11 @@ export default function RootLayout() {
     <ThemeProvider value={colorScheme === "dark" ? DarkTheme : DefaultTheme}>
       <Stack>
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+        <Stack.Screen
+          name="(modal)/post/[id]"
+          options={{ presentation: "card", title: "Comments" }}
+        />
+
         <Stack.Screen name="+not-found" />
       </Stack>
     </ThemeProvider>

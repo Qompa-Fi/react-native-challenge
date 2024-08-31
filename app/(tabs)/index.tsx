@@ -2,14 +2,12 @@ import { StyleSheet } from "react-native";
 import Constants from "expo-constants";
 
 import { ThemedView } from "@/components/ThemedView";
-import { ThemedText } from "@/components/ThemedText";
+import PostList from "@/screens/Post/PostList";
 
 export default function HomeScreen() {
   return (
     <ThemedView style={styles.container}>
-      <ThemedText style={styles.title} type="title">
-        Welcome!
-      </ThemedText>
+      <PostList />
     </ThemedView>
   );
 }
