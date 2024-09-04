@@ -58,6 +58,7 @@ title should be copied to the clipboard.
 ## Delivery
 
 When you are done, submit a Pull Request and leaving your full name in the comment/description section
+If you used environment variables, send them by email 
 
 ## Evaluation Criteria
 
